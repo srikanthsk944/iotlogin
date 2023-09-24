@@ -1,0 +1,86 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(139, 199, 226, 0.589);
+
+}
+img{
+   z-index: -1;
+   position: absolute;
+   top: 45%;
+   height: 50%;
+   width: 50%;
+}
+h1{
+    background-color: rgb(14, 228, 50);
+    text-align: center;
+    border-radius: 50px;
+    background-image:  url(./assets/Apple-2560x1600.jpg);
+    background-blend-mode: hue;
+}
+.login-page{
+    top: 20%;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    padding-left: 20px;
+    background-color: antiquewhite;
+    border-radius: 60px;
+    background-image:  url(./assets/Apple-2560x1600.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.id{
+    width: 20%;
+    height: 30px; 
+    display: block;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    border-style: none;
+    outline: none;
+    border-style: none;
+    box-shadow: 2px 2px 2px 1px black;
+}
+.password{
+    width: 20%;
+    height: 30px; 
+    display: block;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center; 
+    outline: none;
+    border-style: none;
+    box-shadow: 2px 2px 2px 1px black;
+}
+button{
+    width: 80px;
+    margin-bottom: 20px;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 3px;
+    color: rgb(0, 153, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+    border-style: none;
+    box-shadow: 2px 2px 2px 1px black;
+}
+input:active{
+    border-style: none;
+}
+button:hover{
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 2px 2px 2px 1px darkblue;
+    transition: 1s;
+}
+.id:hover{
+    box-shadow: 2px 2px 2px 1px red;
+}
+.password:hover{
+    box-shadow: 2px 2px 2px 1px red;
+}
